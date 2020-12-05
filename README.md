@@ -10,9 +10,7 @@ Project Files for Codeblocks can be found in /ide
 Pictures generated for the purposes of the dissertation can be found in /img
 
 
-/////////////////////////
-// Running the program //
-/////////////////////////
+# Running The Program
 The program file, "DDMRES-2d.exe" can be found in /release 
 
 The program will automatically plot the solution to matlab for reference if it is installed on your machine. If this is not the case, a solution file will still be generated, & error values generated agianst the exact solution
