@@ -1,7 +1,7 @@
 # DDMRes-2D
 
 This project contains the release & source code for the  implementation of a Discrete-Dual Minimal Residual Finite Element Method, as written & implemented by me in service of my dissertation project, details of which can be found on
-[the dissertation project page on my website](adam-howlett.github.io/dissertation.html)
+[the dissertation project page on my website](https://adam-howlett.github.io/dissertation.html)
 All code was written by me, unless otherwise acknowledged.
 
 Source code for the project can be found in /src
