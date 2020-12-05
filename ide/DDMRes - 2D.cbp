@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="DDMRes - 2D" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/DDMRes - 2D" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/DDMRes - 2D" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="SFML-2.5.1/bin" />
+			<Add directory="SFML-2.5.1/include" />
+		</Compiler>
+		<Linker>
+			<Add library="sfml-graphics" />
+			<Add library="sfml-window" />
+			<Add library="sfml-system" />
+			<Add directory="SFML-2.5.1/bin" />
+			<Add directory="SFML-2.5.1/lib" />
+		</Linker>
+		<Unit filename="../src/cpp/BasisFunc.cpp" />
+		<Unit filename="../src/cpp/Matrix.cpp" />
+		<Unit filename="../src/cpp/Mesh.cpp" />
+		<Unit filename="../src/cpp/Vector.cpp" />
+		<Unit filename="../src/cpp/extra_functions.cpp" />
+		<Unit filename="../src/cpp/extra_sfml_methods.cpp" />
+		<Unit filename="../src/cpp/include/BasisFunc.h" />
+		<Unit filename="../src/cpp/include/Matrix.h" />
+		<Unit filename="../src/cpp/include/Mesh.h" />
+		<Unit filename="../src/cpp/include/Vector.hpp" />
+		<Unit filename="../src/cpp/include/extra_functions.h" />
+		<Unit filename="../src/cpp/main.cpp" />
+		<Unit filename="../src/matlab/Plotting.m" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
