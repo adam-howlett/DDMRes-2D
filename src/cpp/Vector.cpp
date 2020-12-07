@@ -6,7 +6,7 @@
 
 #include "include/Vector.hpp"
 
-//The majority of this class & its methods were written by one of my lecturers at the university of nottingham. Certain modifications & additions have been made by me in order to fit it for purpose
+//The majority of this class & its methods were written by one of my lecturers at the University of Nottingham. Certain modifications & additions have been made by me in order to fit it for purpose
 
 //Default Constructor
 Vector::Vector(){
